@@ -1,51 +1,38 @@
-# ICN292-Cerecera-Sergio
 
-## Proyecto
+# ICN292 - Sistemas de Información para la Gestión
+## Proyecto Integraltax Servicios Ltda.
 
-Proyecto de Sistemas de Información para la Gestión para la empresa **Integraltax Servicios Ltda.**
-
-La empresa presta servicios de contabilidad, tributación y remuneraciones. El problema principal identificado es la gestión descentralizada de documentos de clientes, ya que parte de la información se encuentra almacenada en los computadores personales de los colaboradores.
-
-La propuesta consiste en centralizar estos documentos en un repositorio común, permitiendo su búsqueda, consulta, control de acceso, manejo de versiones y respaldo.
+Repositorio del proyecto desarrollado para la asignatura ICN292.
 
 ## Estructura del repositorio
 
-- `docs/`: documentación principal del proyecto.
-  - `00-caso-pyme.md`: descripción de la empresa y problema.
-  - `01-requerimientos.md`: requerimientos funcionales y no funcionales.
-  - `02-bpmn.md`: explicación de los procesos AS-IS y TO-BE.
-  - `03-er-preliminar.md`: modelo entidad-relación preliminar.
+- `assets/`: recursos y material gráfico del proyecto.
+- `db/`: estructura de la base de datos y datos de prueba.
+- `automatizacion/`: scripts Python para respaldo y pruebas.
+- `docs/`: documentación del caso, requerimientos, BPMN, modelo de datos, consultas SQL y automatización.
+- `informe/`: informes de las entregas.
+- `presentacion/`: presentación de la entrega 2.
 
-- `assets/`: diagramas exportados del proyecto.
-  - `BPMN_ASIS_INTEGRALTAX.png`
-  - `BPMN_TOBE_INTEGRALTAX.png`
+## Base de datos
 
-- `informe/`: informe de la Entrega 1 en PDF y Word.
+Los archivos principales son:
 
-## Entrega 2
+- `db/schema.sql`: creación de las tablas.
+- `db/seed.sql`: carga de datos de prueba.
 
-La documentación de esta Entrega 1 servirá como base para la implementación de la solución en la Entrega 2.
+## Automatización
 
-En particular, los requerimientos, procesos BPMN y modelo ER serán utilizados para desarrollar y probar el sistema de gestión documental propuesto.
+En la carpeta `automatizacion/` se encuentran:
 
-## Integrantes y roles
+- `respaldo.py`: ejecución del proceso de respaldo.
+- `prueba.py`: pruebas del proceso de respaldo.
 
-- **Sergio Cerecera:** usuarios y permisos.
-- **Montserrat Dimas:** gestión documental y desarrollo TO-BE.
-- **Daniela Román:** coordinación y documentación.
-- **Ignacia Rosales:** base de datos y modelo de información.
-- **Andree Torroja:** arquitectura y configuración técnica.
+## Documentación
 
-**Paralelo:** 101
+La documentación del proyecto se encuentra en `docs/`. Los informes y la presentación están disponibles en sus respectivas carpetas.
 
-## Informe
+## Alcance
 
-Los archivos correspondientes al informe se encuentran en:
+El proyecto propone una solución para mejorar la gestión, almacenamiento, consulta y respaldo de documentos de Integraltax Servicios Ltda.
 
-`/informe/`
-
-Ahí están disponibles las versiones PDF y Word entregadas.
-
-## Aula
-
-El enlace de Aula se agregará si corresponde y de acuerdo con lo indicado por el profesor.
+**Nota:** los datos utilizados para las pruebas son datos de prueba y no representan necesariamente la operación real de la empresa.
