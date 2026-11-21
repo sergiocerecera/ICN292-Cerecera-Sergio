@@ -1,0 +1,12 @@
+
+Repositorio GitHub - Proyecto ICN292
+
+Enlace:
+https://github.com/sergiocerecera/ICN292-Cerecera-Sergio
+
+Rama principal: main
+
+Proyecto: Integraltax Servicios Ltda.
+Asignatura: ICN292 - Sistemas de Información para la Gestión
+
+Entrega: E2
